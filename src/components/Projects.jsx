@@ -15,7 +15,7 @@ const Projects = () => {
       longDescription: "This very portfolio website featuring 3D elements, animations, and React architecture.",
       image: "/Portfolio.png",
       tech: ["React", "JavaScript", "Tailwind CSS", "Lucide", "React‑Icons"],
-      github: "#",
+      github: "https://github.com/Roweet1604/Portfolio",
       live: "#",
       featured: false,
       category: "Web Development"
