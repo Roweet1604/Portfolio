@@ -48,7 +48,6 @@ const Skills = () => {
         { name: 'JavaScript', icon: <Cpu className="w-5 h-5" />, color: 'from-yellow-400 to-orange-500' },
         { name: 'HTML/CSS', icon: <Monitor className="w-5 h-5" />, color: 'from-orange-400 to-red-500' },
         { name: 'Tailwind CSS', icon: <Palette className="w-5 h-5" />, color: 'from-cyan-400 to-teal-500' },
-        { name: 'Firebase', icon: <FlameIcon className="w-5 h-5" />, color: 'from-yellow-500 to-yellow-700' },
       ],
     },
     {
@@ -69,7 +68,7 @@ const Skills = () => {
       skills: [
         { name: 'Git/GitHub', icon: <GitBranch className="w-5 h-5" />, color: 'from-orange-500 to-red-600' },
         { name: 'VS Code', icon: <Code className="w-5 h-5" />, color: 'from-blue-500 to-blue-700' },
-        { name: 'Figma', icon: <Palette className="w-5 h-5" />, color: 'from-purple-500 to-pink-500' },
+        { name: 'Firebase', icon: <FlameIcon className="w-5 h-5" />, color: 'from-yellow-500 to-yellow-700' },
         { name: 'MySQL', icon: <SiMysql className="w-5 h-5" />, color: 'from-blue-500 to-blue-700' },
         { name: 'Power BI', icon: <BiBarChart className="w-5 h-5" />, color: 'from-yellow-500 to-yellow-700' },
         { name: 'AI Agents', icon: <Bot className="w-5 h-5" />, color: 'from-gray-600 to-gray-800' },
