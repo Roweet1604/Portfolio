@@ -38,7 +38,7 @@ const Hero = () => {
               >
                 Download CV
                 </a>
-              </button>
+              </button>  
             </div>
             
             {/* Social Links */}
