@@ -31,6 +31,18 @@ const Projects = () => {
       live: "https://sort-viz-z.vercel.app/",
       featured: false,
       category: "Web Development"
+    },
+    {
+      id: 3,
+      title: "Priora",
+      description: "A React + Firebase dashboard for clients to manage employees and assign tasks, and for employees to view and submit work.",
+      longDescription: "Built with React‑Vite, SweetAlert, JavaScript, Tailwind CSS, Custom Parsing Utilities, Responsive Design",
+      image: "/Priora.png",
+      tech: ["React", "JavaScript", "SweetAlert", "Tailwind CSS", "Responsive Design"],
+      github: "https://github.com/Roweet1604/Priora",
+      live: "https://priora-sable.vercel.app/",
+      featured: false,
+      category: "Web Development"
     }
   ];
 
