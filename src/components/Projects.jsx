@@ -5,7 +5,7 @@ const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [expandedTech, setExpandedTech] = useState({});
 
-  const categories = ['All', 'Web Development', 'App Development', 'AIML', 'Others'];
+  const categories = ['All', 'Web Development','AIML', 'Others'];
 
   const projects = [
     {
@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A modern, animated portfolio website showcasing creative design and smooth interactions.",
       longDescription: "This very portfolio website featuring 3D elements, animations, and React architecture.",
-      image: "/Portfolio.png",
+      image: "/Portfolio.jpg",
       tech: ["React", "JavaScript", "Tailwind CSS", "Lucide", "React‑Icons"],
       github: "https://github.com/Roweet1604/Portfolio",
       live: "#",
@@ -43,6 +43,19 @@ const Projects = () => {
       live: "https://priora-sable.vercel.app/",
       featured: false,
       category: "Web Development"
+    },
+    {
+      id: 4,
+      title: "InvoiXe",
+      description: "A web app that generates professional invoices with dynamic PDFs, QR codes, and easy verification.",
+      longDescription: "InvoiXe is a responsive web application built with React‑Vite, JavaScript, Tailwind CSS, SweetAlert, and custom parsing utilities. It allows users to create, download, and verify invoices seamlessly with dynamic PDFs and integrated QR codes for secure validation.",
+      image: "/InvoiXe.png",
+      tech: ["React", "JavaScript", "Firebase", "Tailwind CSS", "Responsive Design"],
+      github: "https://github.com/Roweet1604/InvoiXe",
+      live: "https://invoixe-ten.vercel.app",
+      featured: false,
+      category: "Web Development"
+
     }
   ];
 
