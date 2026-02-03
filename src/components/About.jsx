@@ -41,7 +41,7 @@ const About = () => {
             <div className="space-y-6">
               <div className="content-enhanced rounded-2xl p-8 hover:bg-white/15 transition-all duration-300">
                 <h3 className="text-3xl font-semibold text-white mb-4 text-enhanced">
-                  Passionate Frontend Developer
+                  Passionate Software Engineer
                 </h3>
                 <p className="text-gray-200 text-lg leading-relaxed mb-6 text-enhanced">
                   I'm a Third-year Computer Science and Engineering student with a strong passion
@@ -59,11 +59,11 @@ const About = () => {
               {/* Personal Stats */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="content-enhanced rounded-xl p-6 border-cyan-400/30 hover:bg-white/15 transition-all duration-300">
-                  <div className="text-3xl font-bold text-cyan-400 mb-2">2+</div>
+                  <div className="text-3xl font-bold text-cyan-400 mb-2">4</div>
                   <div className="text-gray-200 text-enhanced">Projects Completed</div>
                 </div>
                 <div className="content-enhanced rounded-xl p-6 border-purple-400/30 hover:bg-white/15 transition-all duration-300">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">1+</div>
+                  <div className="text-3xl font-bold text-purple-400 mb-2">1.5</div>
                   <div className="text-gray-200 text-enhanced">Years Learning</div>
                 </div>
               </div>
