@@ -56,14 +56,34 @@ const Projects = () => {
       featured: false,
       category: "Web Development"
 
+    },
+    {
+      id: 5,
+      title: "CommitBot",
+      description: "A SaaS platform that enables developers to deploy customizable AI chatbots on their websites in under 60 seconds.",
+      longDescription: "CommitBot is a full-stack SaaS application that allows developer to create and integrate AI-powered chatbots into their websites with minimal setup. Built using React, Node.js, and MongoDB, it supports both keyword-based responses and AI-driven conversations using user-provided API keys. The platform includes a dynamic dashboard for bot management, real-time customization, and seamless script-based integration, with a focus on performance, usability, and scalability.",
+      image: "/CommitBot.png",
+      tech:  ["React","JavaScript","Node.js","Express","MongoDB","REST API","Authentication (JWT)"],
+      github: "https://github.com/Roweet1604/CommitBot",
+      live: "https://commit-bot-liard.vercel.app/",
+      featured: false,
+      category: ["Web Development", "AIML"]
+
     }
   ];
 
   const featuredProjects   = projects.filter(p => p.featured);
   const filteredOtherProjects = projects
-    .filter(p => !p.featured)
-    .filter(p => activeCategory === 'All' || p.category === activeCategory);
+  .filter(p => !p.featured)
+  .filter(p => {
+    if (activeCategory === 'All') return true;
 
+    if (Array.isArray(p.category)) {
+      return p.category.includes(activeCategory);
+    }
+
+    return p.category === activeCategory;
+  });
   return (
     <section id="projects" className="min-h-screen py-20 relative">
       <div className="container mx-auto px-6 z-10 relative">
