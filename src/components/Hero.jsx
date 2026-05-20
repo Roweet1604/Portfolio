@@ -56,7 +56,7 @@ const Hero = () => {
                 <Linkedin className="w-6 h-6 text-white" />
               </a>
               <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=rohitdev1604@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=rohit2raj841219@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 content-enhanced rounded-full hover:bg-pink-400/30 hover:border-pink-400/50 transition-all duration-300">
