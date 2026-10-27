@@ -69,6 +69,19 @@ const Projects = () => {
       featured: false,
       category: ["Web Development", "AIML"]
 
+    },
+    {
+      id: 6,
+      title: "VoiceLoop",
+      description: "A SaaS platform that lets businesses collect private customer feedback by voice or text through QR codes, and manage it in one dashboard.",
+      longDescription: "VoiceLoop is a full-stack SaaS application that helps businesses catch unhappy customers before they leave a public review. Customers scan a QR code or open a link and send feedback by voice or text in about 20 seconds, with no app and no signup. Business owners get a dashboard to read feedback, track complaints and resolve them. Built using React, Node.js, Express and MongoDB, and deployed on Render, with a focus on a fast, frictionless feedback flow for customers.",
+      image: "/VoiceLoop.png",
+      tech:  ["React", "JavaScript", "Node.js", "Express", "MongoDB", "REST API", "Authentication"],
+      github: "https://github.com/Roweet1604/VoiceLoop",
+      live: "https://voiceloop-6saz.onrender.com/",
+      featured: false,
+      category: ["Web Development", "SAAS"]
+
     }
   ];
 
